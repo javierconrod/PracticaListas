@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lstAlumnos" HorizontalAlignment="Left" Height="367" Margin="21,31,0,0" VerticalAlignment="Top" Width="140" SelectionChanged="lstAlumnos_SelectionChanged">
-            
+        <ListBox x:Name="lstAlumnos" HorizontalAlignment="Left" Height="367" Margin="21,31,0,0" VerticalAlignment="Top" Width="141" SelectionChanged="lstAlumnos_SelectionChanged">
+
         </ListBox>
         <TextBlock HorizontalAlignment="Left" Margin="21,10,0,0" TextWrapping="Wrap" Text="Lista de alumnos" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="207,10,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
@@ -17,6 +17,12 @@
         <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" Margin="207,73,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="207,94,0,0" TextWrapping="Wrap" Text="Carrera:" VerticalAlignment="Top"/>
         <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" Margin="207,115,0,0" TextWrapping="Wrap" Text="Nombre de la carrera" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="374,10,0,0" TextWrapping="Wrap" Text="Materias" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstMaterias" HorizontalAlignment="Left" Height="367" Margin="374,31,0,0" VerticalAlignment="Top" Width="141" SelectionChanged="lstMaterias_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="554,31,0,0" TextWrapping="Wrap" Text="Clave" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblClave" HorizontalAlignment="Left" Margin="554,55,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="554,91,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombreMateria" HorizontalAlignment="Left" Margin="554,115,0,0" TextWrapping="Wrap" Text="Materias" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
